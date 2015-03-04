@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+
+header {
+  overflow: auto;
+  border-bottom: 1px solid darkslategray;
+}
+
+body {
+  overflow: auto;
+  clear: both;
+}
+
+.comments p:nth-child(even) {
+    background: lavender;
+}
+
+.comments p:nth-child(odd) {
+    background: gainsboro;
+}
+
+.comments {
+  float: left;
+  width: 0px;
+  overflow: auto;
+}
+
+.fizzbuzz_1 p:nth-child(odd){
+  background: lavender;
+}
+
+.fizzbuzz_1 p:nth-child(even){
+  background: gainsboro;
+}
+
+.fizzbuzz_1, .fizzbuzz_2, .fizzbuzz_3, .fizzbuzz_4, .fizzbuzz_5 {
+  float: left;
+  width: 100px;
+  overflow: auto;
+}
+
+.fizzbuzz_2 p:nth-child(even){
+  background: lavender;
+}
+
+.fizzbuzz_2 p:nth-child(odd){
+  background: gainsboro;
+}
+
+.fizzbuzz_3 p:nth-child(odd){
+  background: lavender;
+}
+
+.fizzbuzz_3 p:nth-child(even){
+  background: gainsboro;
+}
+
+.fizzbuzz_4 p:nth-child(even){
+  background: lavender;
+}
+
+.fizzbuzz_4 p:nth-child(odd){
+  background: gainsboro;
+}
+
+.fizzbuzz_5 p:nth-child(odd){
+  background: lavender;
+}
+
+.fizzbuzz_5 p:nth-child(even){
+  background: gainsboro;
+}
+
+p {
+  padding: 3px;
+  padding-left: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
